@@ -628,7 +628,7 @@ em { font-style: italic; }
 
 .services-list ul { list-style: none; display: flex; flex-direction: column; }
 .services-list li {
-  font-size: .9rem; font-weight: 300;
+  font-size: .9rem; font-weight: 500;
   padding: .7rem 0;
   border-bottom: 1px solid rgba(168,202,175,.12);
   display: flex; align-items: baseline; gap: .9rem;
@@ -638,10 +638,10 @@ em { font-style: italic; }
   content: '—'; color: var(--green-light);
   font-size: .7rem; flex-shrink: 0;
 }
-.dark-section  .services-list li { color: var(--text-inv-dim); }
+.dark-section  .services-list li { color: var(--text-inv); font-weight: 500; }
 .services-list li:hover { color: var(--green-light); }
 
-.services-list-dark li { border-color: var(--green-line) !important; color: var(--ink-mid) !important; }
+.services-list-dark li { border-color: var(--green-line) !important; color: var(--ink) !important; font-weight: 500 !important; }
 .services-list-dark li::before { color: var(--green-mid) !important; }
 .services-list-dark li:hover { color: var(--green-deep) !important; }
 
