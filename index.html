@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BLER TRAVEL BRAZIL</title>
+  <meta name="description" content="Criada em 2004, a BLER TRAVEL BRAZIL oferece um serviço personalizado para viagens de lazer e viagens corporativas. Mais de 25 anos de experiência, suporte 24h." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=4" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- ── CURSOR GLOW ──────────────────────────────────── -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ══════════════════════════════════════════════════
+       NAVIGATION — always white
+  ══════════════════════════════════════════════════ -->
+  <header class="nav" id="nav">
+    <div class="nav-container">
+
+      <!-- Logo top-left, always over white -->
+      <a href="#home" class="nav-logo" aria-label="BLER TRAVEL BRAZIL">
+        <img src="./BLER LOGO DESDE 2004 2016 new.jpg" alt="BLER TRAVEL BRAZIL" />
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home"       data-i18n="n_home">Início</a>
+        <a href="#corporate"  data-i18n="n_corp">Assistência Corporativa</a>
+        <a href="#leisure"    data-i18n="n_lei">Viagens de Lazer</a>
+        <a href="#backoffice" data-i18n="n_bo">Back Office Support</a>
+        <a href="#contact"    data-i18n="n_ct">Parcerias &amp; Contato</a>
+      </nav>
+
+      <div class="nav-end">
+        <div class="lang-switcher" role="group" aria-label="Language">
+          <button class="lang-btn active" data-lang="pt">PT</button>
+          <span aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <span aria-hidden="true">·</span>
+          <button class="lang-btn" data-lang="es">ES</button>
+        </div>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div class="nav-drawer" id="drawer" aria-hidden="true">
+    <nav class="drawer-links">
+      <a href="#home"       data-i18n="n_home">Início</a>
+      <a href="#corporate"  data-i18n="n_corp">Assistência Corporativa</a>
+      <a href="#leisure"    data-i18n="n_lei">Viagens de Lazer</a>
+      <a href="#backoffice" data-i18n="n_bo">Back Office Support</a>
+      <a href="#contact"    data-i18n="n_ct">Parcerias &amp; Contato</a>
+    </nav>
+    <div class="drawer-lang">
+      <button class="lang-btn active" data-lang="pt">PT</button>
+      <span>·</span>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <span>·</span>
+      <button class="lang-btn" data-lang="es">ES</button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+       HERO — text left / photo collage right
+  ══════════════════════════════════════════════════ -->
+  <section class="hero" id="home">
+
+    <!-- Decorative background circle -->
+    <div class="hero-deco-circle"></div>
+
+    <!-- Left: text -->
+    <div class="hero-body">
+
+      <p class="hero-desc reveal-up" data-delay="0" data-i18n="ab_p">
+        Criada em 2004, a BLER TRAVEL BRAZIL oferece um serviço personalizado para viagens de lazer e viagens corporativas. Nossos profissionais têm mais de 25 anos de experiência no mercado do turismo e oferecemos soluções para todo tipo de necessidades dos nossos clientes. Contamos com ampla experiência internacional e junto com nossas agências parceiras nos EUA e na Europa oferecemos suporte 24 horas, todos os dias.
+      </p>
+
+    </div>
+
+    <!-- Right: 4-photo staggered collage -->
+    <div class="hero-photos reveal-fade">
+      <div class="hero-photo hp-1">
+        <img src="./hero-1.jpg" alt="Luxury business class" loading="eager" />
+      </div>
+      <div class="hero-photo hp-2">
+        <img src="./hero-2.jpg" alt="Maldives sandbar" loading="eager" />
+      </div>
+      <div class="hero-photo hp-3">
+        <img src="./hero-3.jpg" alt="Alps ski resort" loading="eager" />
+      </div>
+      <div class="hero-photo hp-4">
+        <img src="./hero-4.jpg" alt="Japanese pagoda and Mount Fuji" loading="eager" />
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       CORPORATE
+  ══════════════════════════════════════════════════ -->
+  <section class="corporate dark-section" id="corporate">
+
+    <div class="deco-circle deco-circle-fill" style="width:350px;height:350px;top:-80px;left:-100px;"></div>
+    <div class="deco-circle deco-circle-stroke" style="width:180px;height:180px;top:40%;right:8%;"></div>
+    <div class="deco-circle deco-circle-fill" style="width:120px;height:120px;bottom:10%;left:20%;"></div>
+    <div class="deco-circle deco-circle-stroke" style="width:260px;height:260px;bottom:-60px;right:25%;opacity:.4;"></div>
+
+    <div class="section-image-full reveal-fade">
+      <img
+        src="./corp-banner.jpg"
+        alt="Airplane over corporate skyscrapers"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="section-content">
+      <div class="section-header">
+        <h2 class="section-title reveal-up" data-delay="0">Assistência<br>Corporativa</h2>
+      </div>
+
+      <div class="two-col">
+        <div class="body-text reveal-up" data-delay="2">
+          <p data-i18n="corp_p1">
+            Nossa experiência e profissionalismo ajudam as empresas dos mais diversos segmentos a realizarem viagens corporativas de forma eficiente e com menor custo. Nosso serviço é personalizado e nos adaptamos ao perfil e às necessidades de cada empresa através do desenvolvimento de um suporte 24 horas por dia, 7 dias por semana, que visa reduzir custos e oferecer soluções rápidas e efetivas.
+          </p>
+          <p data-i18n="corp_p2">
+            No mundo corporativo, as coisas mudam o tempo todo, e nossa estrutura flexível nos permite resolver qualquer problema rapidamente, sem burocracia e com autonomia. Nosso objetivo é que nossos clientes possam concentrar em seu negócio e garantir que todas as suas necessidades de viagem sejam sempre atendidas.
+          </p>
+        </div>
+
+        <div class="services-list reveal-up" data-delay="3">
+          <p class="services-label" data-i18n="we_offer">Nós oferecemos</p>
+          <ul>
+            <li data-i18n="cs_1">Sistemas de reservas e gerenciamento on-line</li>
+            <li data-i18n="cs_2">Passagens aéreas</li>
+            <li data-i18n="cs_3">Reservas de hotéis</li>
+            <li data-i18n="cs_4">Seguro de saúde</li>
+            <li data-i18n="cs_5">Atendimento emergencial 24 horas</li>
+            <li data-i18n="cs_6">Organização de eventos corporativos</li>
+            <li data-i18n="cs_7">Locação de carros</li>
+            <li data-i18n="cs_8">Relatórios online</li>
+            <li data-i18n="cs_9">Traslados executivos</li>
+            <li data-i18n="cs_10">Organização de eventos de incentivo</li>
+            <li data-i18n="cs_11">Locação de transporte aéreo privado</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       LEISURE
+  ══════════════════════════════════════════════════ -->
+  <section class="leisure light-section" id="leisure">
+
+    <div class="deco-circle deco-circle-pale" style="width:300px;height:300px;top:-60px;left:-80px;"></div>
+    <div class="deco-circle deco-circle-stroke" style="width:160px;height:160px;top:15%;left:30%;border-color:var(--green-light);opacity:.4;"></div>
+    <div class="deco-circle deco-circle-pale" style="width:200px;height:200px;bottom:5%;right:-50px;opacity:.5;"></div>
+    <div class="deco-circle deco-circle-stroke" style="width:100px;height:100px;bottom:20%;left:10%;border-color:var(--green-light);opacity:.35;"></div>
+
+    <div class="section-content">
+      <div class="section-header">
+        <h2 class="section-title reveal-up" data-delay="0">Viagens de<br>Lazer</h2>
+      </div>
+
+      <div class="two-col">
+        <div class="body-text reveal-up" data-delay="2">
+          <p data-i18n="lei_pull">Viajar é muito mais do que conhecer lugares.</p>
+          <p data-i18n="lei_p1">
+            É experimentar novos sabores, ouvir novos sons, vislumbrar paisagens majestosas, surpreender os nossos sentidos. É fazer novas amizades, aprender a história e fazer parte dela. É o aroma das plumérias em Waikiki, o sabor das cerejas na Provance e o ar puro dos Alpes. O sol na pele na primavera de New York, a neve fofa de Aspen, a areia branca de Turks and Caicos.
+          </p>
+          <p data-i18n="lei_p2">É conquistar uma nova etapa espiritual, mental. É a arte de viver!</p>
+          <p data-i18n="lei_p3">
+            Nós não trabalhamos somente vendendo viagens. Fazemos muito mais que isso. Na verdade ajudamos os nossos clientes a realizarem os seus sonhos. Oferecemos um atendimento diferenciado para que nossos clientes possam aproveitar ao máximo a viagem. Antes, durante, depois e sempre.
+          </p>
+        </div>
+
+        <div class="services-list services-list-dark reveal-up" data-delay="3">
+          <p class="services-label" data-i18n="we_offer">Nós oferecemos</p>
+          <ul>
+            <li data-i18n="ls_1">Passagens aéreas</li>
+            <li data-i18n="ls_2">Reservas de hotéis</li>
+            <li data-i18n="ls_3">Seguro de saúde</li>
+            <li data-i18n="ls_4">Serviço emergencial 24 horas</li>
+            <li data-i18n="ls_5">Locação de carros</li>
+            <li data-i18n="ls_6">Traslados privados</li>
+            <li data-i18n="ls_7">Transporte privado em destinos internacionais</li>
+            <li data-i18n="ls_8">Pacotes de viagem</li>
+            <li data-i18n="ls_9">Organização de eventos privados</li>
+            <li data-i18n="ls_10">Locação de barcos</li>
+            <li data-i18n="ls_11">Pacotes de lua de mel</li>
+            <li data-i18n="ls_12">Expert para viagens de esqui</li>
+            <li data-i18n="ls_13">Passeios temáticos</li>
+            <li data-i18n="ls_14">Cruzeiros</li>
+            <li data-i18n="ls_15">Expert Disney</li>
+            <li data-i18n="ls_16">Roteiros religiosos e de conhecimento espiritual</li>
+            <li data-i18n="ls_17">Expert Israel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo mosaic — 6 photos 3×2 -->
+    <div class="photo-mosaic-6">
+      <div class="mosaic-item reveal-fade">
+        <img src="./leisure-1.jpg" alt="Maldives luxury dinner on the beach" loading="lazy" />
+      </div>
+      <div class="mosaic-item reveal-fade" data-delay="1">
+        <img src="./leisure-2.jpg" alt="Overwater bungalow infinity pool at sunset" loading="lazy" />
+      </div>
+      <div class="mosaic-item reveal-fade" data-delay="2">
+        <img src="./leisure-3.jpg" alt="Mykonos infinity pool overlooking the sea" loading="lazy" />
+      </div>
+      <div class="mosaic-item reveal-fade" data-delay="1">
+        <img src="./leisure-4.jpg" alt="New York City skyline at golden hour" loading="lazy" />
+      </div>
+      <div class="mosaic-item reveal-fade" data-delay="2">
+        <img src="./leisure-5.jpg" alt="Aerial view from airplane window" loading="lazy" />
+      </div>
+      <div class="mosaic-item reveal-fade" data-delay="3">
+        <img src="./leisure-6.jpg" alt="Luxury destination" loading="lazy" />
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       BACK OFFICE
+  ══════════════════════════════════════════════════ -->
+  <section class="backoffice cream-section" id="backoffice">
+
+    <div class="deco-circle deco-circle-cream" style="width:280px;height:280px;top:-50px;right:-70px;"></div>
+    <div class="deco-circle deco-circle-stroke" style="width:150px;height:150px;top:30%;left:5%;border-color:var(--green-light);opacity:.35;"></div>
+    <div class="deco-circle deco-circle-pale" style="width:180px;height:180px;bottom:-40px;left:40%;opacity:.45;"></div>
+    <div class="deco-circle deco-circle-stroke" style="width:90px;height:90px;bottom:15%;right:15%;border-color:var(--green-mid);opacity:.25;"></div>
+
+    <div class="section-content">
+      <div class="section-header">
+        <h2 class="section-title reveal-up" data-delay="0">Back Office<br>Agency Support</h2>
+      </div>
+
+      <div class="two-col">
+        <div class="body-text reveal-up" data-delay="2">
+          <p data-i18n="bo_p1">
+            O "Back Office Agency Support" é um serviço customizado de suporte, consultoria e atendimento a agências de viagens, hotéis e empresas de turismo. Oferecemos nossos mais de 20 anos de experiência internacional na indústria de turismo para que nossos clientes e parceiros possam ter um ganho de produtividade, reduzindo seus custos operacionais e de mão-de-obra, obtendo mais lucros.
+          </p>
+          <p data-i18n="bo_p2">
+            Nosso serviço funciona em tempo real à distância. Também podemos oferecer assistência e produção no local. Trabalhamos como um colaborador virtual, atendendo a diferentes demandas sob medida às diferentes necessidades de nossos clientes e parceiros.
+          </p>
+        </div>
+
+        <div class="services-list services-list-dark reveal-up" data-delay="3">
+          <p class="services-label" data-i18n="bo_includes">Nossos serviços incluem</p>
+          <ul>
+            <li data-i18n="bo_1">Reservas aéreas</li>
+            <li data-i18n="bo_2">Montagem e produção de pacotes turísticos</li>
+            <li data-i18n="bo_3">Pesquisa e desenvolvimento de roteiros turísticos</li>
+            <li data-i18n="bo_4">Reservas de hotel</li>
+            <li data-i18n="bo_5">Assistência na organização de eventos corporativos e de lazer</li>
+            <li data-i18n="bo_6">Assistência na organização de eventos de incentivo</li>
+            <li data-i18n="bo_7">Serviço personalizado para clientes corporativos e VIP</li>
+            <li data-i18n="bo_8">Treinamento</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       PHOTO STRIP — between Back Office and Contact
+  ══════════════════════════════════════════════════ -->
+  <div class="bo-photos-wrap">
+    <div class="bo-photos">
+      <div class="mosaic-item reveal-fade">
+        <img src="./bo-handshake.jpg" alt="Business partnership handshake" loading="lazy" />
+      </div>
+      <div class="mosaic-item reveal-fade" data-delay="1">
+        <img src="./bo-dubai.jpg" alt="Aerial view of Dubai from airplane window" loading="lazy" />
+      </div>
+      <div class="mosaic-item reveal-fade" data-delay="2">
+        <img src="./bo-airport.jpg" alt="Airport departure terminal" loading="lazy" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+       VOICE AGENT — Karina
+  ══════════════════════════════════════════════════ -->
+  <section class="voice-agent-section">
+    <div class="voice-agent-inner">
+
+      <div class="voice-agent-text reveal-up">
+        <h2 class="voice-agent-title">Fale com a gente!</h2>
+        <p class="voice-agent-desc">
+          Nosso atendente está disponível 24 horas por dia, 7 dias por semana.<br><br>
+          Queremos entender suas necessidades e preparar o caminho para uma proposta personalizada — agora mesmo, por voz.
+        </p>
+      </div>
+
+      <div class="voice-agent-cta reveal-up" data-delay="2">
+
+        <!-- How it works -->
+        <p class="voice-agent-steps">
+          <span><span class="step-num">1</span> Preencha seus dados</span>
+          <span class="step-arrow">→</span>
+          <span><span class="step-num">2</span> Inicie a conversa por voz</span>
+          <span class="step-arrow">→</span>
+          <span><span class="step-num">3</span> Nós retornamos por WhatsApp ou email</span>
+        </p>
+
+        <!-- Contact fields -->
+        <div class="voice-agent-fields">
+          <div class="voice-field">
+            <label for="vapiName">Nome</label>
+            <input type="text" id="vapiName" placeholder="Seu nome" autocomplete="name" />
+          </div>
+          <div class="voice-field">
+            <label for="vapiWhatsapp">WhatsApp</label>
+            <input type="tel" id="vapiWhatsapp" placeholder="+55 21 9 9999-9999" autocomplete="tel" />
+          </div>
+          <div class="voice-field">
+            <label for="vapiEmail">Email</label>
+            <input type="email" id="vapiEmail" placeholder="seu@email.com" autocomplete="email" />
+          </div>
+        </div>
+        <p class="voice-agent-fields-hint">Assim, se a chamada cair, podemos te retornar por WhatsApp ou email.</p>
+
+        <!-- Call button -->
+        <button class="voice-btn" id="vapiBtn" aria-label="Iniciar chamada de voz">
+          <span class="voice-btn-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="23"/>
+              <line x1="8" y1="23" x2="16" y2="23"/>
+            </svg>
+          </span>
+          <span class="voice-btn-text" id="vapiBtnText">Iniciar Conversa</span>
+        </button>
+        <p class="voice-agent-hint" id="vapiStatus">Fale com Karina em português, inglês ou espanhol — chamada rápida, até 2 minutos</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════════════════ -->
+  <section class="contact" id="contact">
+
+    <div class="deco-circle deco-circle-pale" style="width:320px;height:320px;top:-80px;right:-60px;opacity:.4;"></div>
+    <div class="deco-circle deco-circle-stroke" style="width:140px;height:140px;top:20%;left:5%;border-color:var(--green-light);opacity:.35;"></div>
+    <div class="deco-circle deco-circle-pale" style="width:100px;height:100px;bottom:10%;right:30%;opacity:.5;"></div>
+
+    <div class="contact-inner">
+
+      <div class="contact-info">
+        <h2 class="section-title reveal-up" data-delay="0">Parcerias &amp;<br>Contato</h2>
+        <p class="reveal-up" data-delay="1" data-i18n="ct_p">
+          Nossa empresa parceira nos Estados Unidos permite acesso exclusivo ao mercado internacional e suporte extra para nossos clientes. Podemos oferecer tarifas mais competitivas, bem como suporte logístico diferenciado. Nossa experiência e suporte internacional confere aos nossos clientes a certeza e a tranquilidade de que podem contar conosco a qualquer momento, mesmo quando imprevistos acontecem.
+        </p>
+
+        <div class="offices reveal-up" data-delay="2">
+          <div class="office-row">
+            <div class="office-img">
+              <img src="./contact-rio.jpg" alt="Rio de Janeiro, Brasil" loading="lazy" />
+            </div>
+            <div class="office">
+              <p class="office-name">BLER Travel Brazil</p>
+              <p>Rua do Russel 258 / 501<br>Rio de Janeiro – Brasil<br>CEP 22210-010</p>
+              <p>Tel: <a href="tel:+552139587148">55 (21) 3958 7148</a></p>
+              <p>
+                <a href="mailto:blertravel@ymail.com">blertravel@ymail.com</a><br>
+                <a href="mailto:blertravelbrazil@yahoo.com">blertravelbrazil@yahoo.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="office-divider"></div>
+          <div class="office-row">
+            <div class="office-img">
+              <img src="./contact-boston.jpg" alt="Boston, Massachusetts, USA" loading="lazy" />
+            </div>
+            <div class="office">
+              <p class="office-name">BLER Travel USA</p>
+              <p>45 Bartlett Crescent Rd.<br>Brookline, MA 02446 — USA</p>
+              <p>Tel: <a href="tel:+16175054482">617 505 4482</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact form -->
+      <div class="contact-form-wrap reveal-up" data-delay="2">
+        <form id="contactForm" novalidate>
+          <div class="form-field">
+            <label for="f_email" data-i18n="f_email">Email</label>
+            <input type="email" id="f_email" name="email" placeholder="seu@email.com" required />
+          </div>
+          <div class="form-field">
+            <label for="f_subject" data-i18n="f_subject">Assunto</label>
+            <input type="text" id="f_subject" name="subject" placeholder="Como podemos ajudar?" />
+          </div>
+          <div class="form-field">
+            <label for="f_msg" data-i18n="f_msg">Mensagem</label>
+            <textarea id="f_msg" name="message" rows="6" placeholder="Descreva sua viagem ideal…" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">
+            <span class="btn-submit-text" data-i18n="f_send">Enviar</span>
+            <span class="btn-submit-arrow">→</span>
+          </button>
+          <p class="form-ok hidden" id="formOk" data-i18n="f_ok">Email recebido! Muito obrigado!</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="./BLER LOGO DESDE 2004 2016 new.jpg" alt="BLER TRAVEL BRAZIL" />
+      </div>
+      <nav class="footer-nav">
+        <a href="#home"       data-i18n="n_home">Início</a>
+        <a href="#corporate"  data-i18n="n_corp">Assistência Corporativa</a>
+        <a href="#leisure"    data-i18n="n_lei">Viagens de Lazer</a>
+        <a href="#backoffice" data-i18n="n_bo">Back Office Support</a>
+        <a href="#contact"    data-i18n="n_ct">Parcerias &amp; Contato</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="ft_copy">© 2026 BLER TRAVEL BRAZIL Ltda.</p>
+      <div class="footer-lang">
+        <button class="lang-btn" data-lang="pt">PT</button>
+        <span>·</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+        <span>·</span>
+        <button class="lang-btn" data-lang="es">ES</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="module">
+    import { Conversation } from 'https://esm.sh/@elevenlabs/client';
+
+    // ── Agent configuration ─────────────────────────────────
+    const AGENT = {
+      id:   'agent_0601kvrr33hnep6vwf5kcty5506n',
+      name: 'Karina',
+      hint: 'Fale com Karina em português, inglês ou espanhol — chamada rápida, até 2 minutos'
+    };
+
+    const btn       = document.getElementById('vapiBtn');
+    const btnText   = document.getElementById('vapiBtnText');
+    const status    = document.getElementById('vapiStatus');
+    const nameInput = document.getElementById('vapiName');
+    const waInput   = document.getElementById('vapiWhatsapp');
+    const emailInput = document.getElementById('vapiEmail');
+
+    let conversation = null;
+    let state = 'idle'; // idle | connecting | active
+
+    // ── Call state management ──────────────────────────────
+    function setState(s) {
+      state = s;
+      btn.classList.remove('connecting', 'active');
+      if (s === 'connecting') {
+        btn.classList.add('connecting');
+        btnText.textContent = 'Conectando…';
+        status.textContent  = 'Aguarde, iniciando chamada…';
+      } else if (s === 'active') {
+        btn.classList.add('active');
+        btnText.textContent = 'Encerrar Chamada';
+        status.textContent  = 'Chamada ativa — fale com ' + AGENT.name + '!';
+      } else {
+        btnText.textContent = 'Iniciar Conversa';
+        status.textContent  = AGENT.hint;
+      }
+    }
+
+    // ── Call button ────────────────────────────────────────
+    btn.addEventListener('click', async function () {
+      if (state === 'idle') {
+        const name = nameInput.value.trim();
+        const whatsapp = waInput.value.trim();
+        const email = emailInput.value.trim();
+
+        if (!name || !whatsapp || !email) {
+          status.textContent = 'Preencha nome, WhatsApp e email antes de iniciar a chamada.';
+          [nameInput, waInput, emailInput].forEach(function (input) {
+            input.classList.toggle('field-error', !input.value.trim());
+          });
+          return;
+        }
+        [nameInput, waInput, emailInput].forEach(function (input) { input.classList.remove('field-error'); });
+
+        if (typeof notifyLead === 'function') {
+          notifyLead('Agente de Voz (Karina)', { name: name, whatsapp: whatsapp, email: email });
+        }
+
+        setState('connecting');
+        try {
+          conversation = await Conversation.startSession({
+            agentId: AGENT.id,
+            dynamicVariables: { name: name, whatsapp: whatsapp, email: email },
+            onConnect: function () { setState('active'); },
+            onDisconnect: function () { setState('idle'); conversation = null; },
+            onError: function (e) {
+              setState('idle');
+              status.textContent = 'Erro na chamada. Tente novamente.';
+              console.error('ElevenLabs error:', e);
+              conversation = null;
+            }
+          });
+        } catch (e) {
+          setState('idle');
+          status.textContent = 'Erro na chamada. Tente novamente.';
+          console.error('ElevenLabs start error:', e);
+        }
+      } else if (state === 'active') {
+        if (conversation) await conversation.endSession();
+      }
+    });
+  </script>
+
+  <!-- ── PRIVACY & COOKIES BANNER ─────────────────────── -->
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-modal="true" aria-label="Aviso de Privacidade e Cookies">
+    <div class="cookie-banner-inner">
+      <div class="cookie-text">
+        <p class="cookie-title">Privacidade &amp; Cookies</p>
+        <p class="cookie-desc">
+          Utilizamos cookies essenciais para o funcionamento do site e cookies analíticos para melhorar sua experiência, em conformidade com a <strong>LGPD</strong> (Lei nº 13.709/2018) e o <strong>GDPR</strong> (Regulamento EU 2016/679). Seus dados pessoais são tratados com segurança e nunca compartilhados com terceiros sem seu consentimento. Ao clicar em <em>Aceitar</em>, você concorda com o uso de cookies conforme nossa Política de Privacidade.
+        </p>
+      </div>
+      <div class="cookie-actions">
+        <button class="cookie-btn cookie-decline" id="cookieDecline">Recusar</button>
+        <button class="cookie-btn cookie-accept" id="cookieAccept">Aceitar todos</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var banner = document.getElementById('cookieBanner');
+      if (!localStorage.getItem('bler_cookie_consent')) {
+        setTimeout(function () { banner.classList.add('visible'); }, 700);
+      }
+      document.getElementById('cookieAccept').addEventListener('click', function () {
+        localStorage.setItem('bler_cookie_consent', 'accepted');
+        banner.classList.remove('visible');
+      });
+      document.getElementById('cookieDecline').addEventListener('click', function () {
+        localStorage.setItem('bler_cookie_consent', 'declined');
+        banner.classList.remove('visible');
+      });
+    })();
+  </script>
+
+</body>
+</html>
