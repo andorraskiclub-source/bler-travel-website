@@ -145,7 +145,7 @@ const T = {
     f_ok:      'Email recebido! Muito obrigado!',
 
     /* Footer */
-    ft_copy: '© 2026 BLER TRAVEL BRAZIL Ltda.',
+    ft_copy: '© 2026 BLER TRAVEL BRAZIL TURISMO LTDA',
   },
 
   en: {
@@ -238,7 +238,7 @@ const T = {
     f_send:    'Send',
     f_ok:      'Message received! Thank you very much!',
 
-    ft_copy: '© 2026 BLER TRAVEL BRAZIL. All rights reserved.',
+    ft_copy: '© 2026 BLER TRAVEL BRAZIL TURISMO LTDA. All rights reserved.',
   },
 
   es: {
@@ -331,7 +331,7 @@ const T = {
     f_send:    'Enviar',
     f_ok:      '¡Correo recibido! ¡Muchas gracias!',
 
-    ft_copy: '© 2026 BLER TRAVEL BRAZIL. Todos los derechos reservados.',
+    ft_copy: '© 2026 BLER TRAVEL BRAZIL TURISMO LTDA. Todos los derechos reservados.',
   },
 
   it: {
@@ -424,7 +424,7 @@ const T = {
     f_send:    'Invia',
     f_ok:      'Messaggio ricevuto! Grazie mille!',
 
-    ft_copy: '© 2026 BLER TRAVEL BRAZIL. Tutti i diritti riservati.',
+    ft_copy: '© 2026 BLER TRAVEL BRAZIL TURISMO LTDA. Tutti i diritti riservati.',
   }
 };
 
