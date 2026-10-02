@@ -32,7 +32,6 @@
 BLER Travel Brazil
 Rua do Russel 258 / 501, Rio de Janeiro - RJ, CEP 22210-010, Brazil
 Phone: +55 21 3958-7148
-Email: blertravelbrazil@yahoo.com
 
 BLER Travel USA (partner office)
 45 Bartlett Crescent Rd., Brookline, MA 02446, USA
@@ -43,7 +42,7 @@ Phone: +1 617 505 4482
 - Corporate travel: https://blertravelbrazil.com.br/viagens-corporativas-rio-de-janeiro
 - Leisure travel: https://blertravelbrazil.com.br/#leisure
 - Back office support: https://blertravelbrazil.com.br/back-office-agencias-de-viagens
-- Contact: https://blertravelbrazil.com.br/#contact
+- Contact form: https://blertravelbrazil.com.br/#contact
 - Corporate travel (English): https://blertravelbrazil.com.br/en/corporate-travel-rio-de-janeiro
 - Back office support (English): https://blertravelbrazil.com.br/en/travel-agency-back-office-support
 
